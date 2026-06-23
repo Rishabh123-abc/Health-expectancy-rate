@@ -83,7 +83,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ----------------
-model_data = joblib.load(r"C:\MLProjects\health_expectancy.joblib")
+model_data = joblib.load("health_expectancy.joblib")
 
 model = model_data["model"]
 scaler = model_data["scaler"]
